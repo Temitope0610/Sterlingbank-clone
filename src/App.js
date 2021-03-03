@@ -4,11 +4,7 @@ import './App.css';
 function App() {
   return (
     <div>
-        <h1>Eke has signed in</h1>
-        <h1>Eke has signed in</h1>
-        <h1>Eke has signed in</h1>
-        <h1>Eke has signed in</h1>
-        <h5>tueh</h5>
+        <h6>This is my nav bar</h6>
     </div>
   );
 }
