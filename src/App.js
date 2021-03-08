@@ -1,6 +1,5 @@
 
 import React from 'react';
-// import Home from './Component/home'
 import '../node_modules/bootstrap';
 import '../node_modules/animate.css'
 import Personal from './pages/personal';

@@ -1,8 +1,8 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import Personal from '../Images/personal.jpg'
-import Business from '../Images/business.jpg'
-import Alternative from '../Images/alternative.jpg'
+import Personal from '../asset/images/personal.jpg'
+import Business from '../asset/images/business.jpg'
+import Alternative from '../asset/images/alternative.jpg'
 import Icon from "./icon";
 
 

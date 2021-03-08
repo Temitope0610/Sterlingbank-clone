@@ -1,12 +1,12 @@
 import React from 'react'
-import Navbar from '../Component/personal-navbar'
+import PersonalNavbar from '../components/personal-navbar';
 
 
 class Personal extends React.Component{
     render(){
         return(
             <div>
-                <Navbar />
+                <PersonalNavbar />
             </div>
         )
     }
