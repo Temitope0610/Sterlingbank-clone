@@ -2,8 +2,8 @@ import React from 'react';
 // pages
 import Home from './pages/home';
 import './App.css';
-import '../node_modules/bootstrap';
-import '../node_modules/animate.css'
+// import '../node_modules/bootstrap';
+// import '../node_modules/animate.css'
 import Personal from './pages/personal';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
