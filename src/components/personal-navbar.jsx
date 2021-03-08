@@ -10,22 +10,24 @@ class PersonalNavbar extends React.Component{
                         <div className='row'>
                             <div className='col-2'>
                                 <ul className='hero-nav-menu float-start p-3'>
-                                   <a href='/personal'><li className='personal-list'>Personal</li></a>
-                                    <Link to=''><li>Business</li></Link>
+
+                                   <li><Link to='/personal'className='personal-list active'>Personal</Link></li>
+                                    <li><Link to=''>Business</Link></li>
+
                                 </ul>
                             </div>
                             <div className='col-10'>
                                 <ul className='hero-nav-menu float-end p-3'>
-                                    <li>Investors</li>
-                                    <li>Non-Interest</li>
-                                    <li>Private</li>
-                                    <li>Disapora</li>
-                                    <li>About Us</li>
-                                    <li>Blog</li>
-                                    <li>Branch/ATM Locator</li>
-                                    <li>Compliants</li>
-                                    <li>Contact Us</li>
-                                </ul>
+                                    <li><Link to=''>Investors</Link></li>
+                                    <li><Link to=''>Non-Interest</Link></li>
+                                    <li><Link to=''>Private</Link></li>
+                                    <li><Link to=''>Disapora</Link></li>
+                                    <li><Link to=''>About Us</Link></li>
+                                    <li><Link to=''>Blog</Link></li>
+                                    <li><Link to=''>Branch/ATM Locator</Link></li>
+                                    <li><Link to=''>Compliants</Link></li>
+                                    <li><Link to=''>Contact Us</Link></li>
+                  </ul>
                             </div>
                         </div>
                     </div>

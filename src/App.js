@@ -1,4 +1,6 @@
 import React from 'react';
+// pages
+import Home from './pages/home';
 import './App.css';
 import '../node_modules/bootstrap';
 import '../node_modules/animate.css'
@@ -14,6 +16,13 @@ function App() {
            <Route path='/' exact><Home /></Route>
            <Route path='/personal'><Personal /></Route>
          </Switch>
+       </Router> */}
+        <Router>
+            <Switch>
+                <Route path ="/" exact ><Home/></Route>
+                <Route path='/personal'><Personal /></Route>
+            </Switch>
+        </Router>
        </Router>
     </div>
   );

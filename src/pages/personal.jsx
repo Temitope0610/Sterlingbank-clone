@@ -1,5 +1,6 @@
 import React from 'react'
-import PersonalNavbar from '../components/personal-navbar'
+
+import PersonalNavbar from '../components/personal-navbar';
 
 
 class Personal extends React.Component{
@@ -7,6 +8,7 @@ class Personal extends React.Component{
         return(
             <div>
              <PersonalNavbar />
+
             </div>
         )
     }

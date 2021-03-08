@@ -1,3 +1,14 @@
+
+:root {
+  --pri-color : #D92028;
+}
+body{
+  font-family: 'Museo Sans' !important;
+}
+a{
+  text-decoration: none;
+}
+=======
 @font-face{
   src: url('./asset/Fonts/MuseoSans_500.otf');
   font-family: 'Museo Sans';
@@ -14,6 +25,7 @@ body{
 a{
   text-decoration: none;
 }
+
 
 a:hover{
   text-decoration: none;
@@ -43,18 +55,26 @@ a:hover{
   width: 100%;
   height: 70px;
   background-color: #DDDDDD;
+  padding: 10px;
 }
 .hero-nav-menu{
   list-style-type: none;
   display: inline;
 }
-ul li{
+.hero-nav-menu li{
   display: inline;
   padding: 15px;
   font-size: 14px;
   color: #796679;
-}
 
+}
+.hero-nav-menu li a{
+  color: #796679;
+}
+.hero-nav-menu li a:hover{
+  color: red;
+}
+}
 .mobile{
   display: none;
 }
