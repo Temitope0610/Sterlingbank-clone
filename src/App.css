@@ -8,7 +8,6 @@ body{
 a{
   text-decoration: none;
 }
-=======
 @font-face{
   src: url('./asset/Fonts/MuseoSans_500.otf');
   font-family: 'Museo Sans';
@@ -73,7 +72,6 @@ a:hover{
 }
 .hero-nav-menu li a:hover{
   color: red;
-}
 }
 .mobile{
   display: none;
