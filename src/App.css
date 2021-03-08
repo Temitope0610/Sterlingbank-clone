@@ -1,3 +1,39 @@
+
+.personal-img{
+  width: 100%;
+  height: 680px;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+}
+/* a{
+  text-decoration: none;
+} */
+.Overlay1{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.whatsapp-icon{
+  position: fixed;
+  z-index: 1000;
+}
+.hero-navbar{
+  width: 100%;
+  height: 70px;
+  background-color: #DDDDDD;
+}
+.hero-nav-menu{
+  list-style-type: none;
+  display: inline;
+}
+ul li{
+  display: inline;
+  padding: 15px;
+  font-size: 14px;
+  color: #796679;
 @font-face{
   src: url('./asset/Fonts/MuseoSans_500.otf');
   font-family: 'Museo Sans';
@@ -153,4 +189,11 @@ a:hover{
   .logo{
     width: 100px;
   }
+}
+.hero-nav-menu li .personal-list:active{
+  background-color: #fff;
+}
+.hero-nav-menu li:hover{
+  color: red;
+  background-color: #fff;
 }
