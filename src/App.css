@@ -12,11 +12,11 @@ body{
 }
 
 a{
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 a:hover{
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 .mobile{
