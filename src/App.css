@@ -1,3 +1,4 @@
+
 .personal-img{
   width: 100%;
   height: 680px;
@@ -33,6 +34,161 @@ ul li{
   padding: 15px;
   font-size: 14px;
   color: #796679;
+@font-face{
+  src: url('./asset/Fonts/MuseoSans_500.otf');
+  font-family: 'Museo Sans';
+}
+
+:root {
+  --pri-color : #D92028;
+}
+
+body{
+  font-family: 'Museo Sans' !important;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+.mobile{
+  display: none;
+}
+
+.hide{
+  display: none;
+}
+
+.show{
+  display: block;
+}
+
+.nav-bar{
+  width: 100%;
+  position: fixed;
+  z-index: 1000;
+}
+
+.logo{
+  width: 200px;
+  margin-top: 30px;
+}
+
+.navbar-btn{
+  padding: 10px 32px;
+  color: #fff;
+  background-color: var(--pri-color);
+  float: right;
+  margin-top: 45px;
+  border-radius: 30px;
+  font-family: "Museo Sans", Sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+}
+
+.navbar-btn:hover{
+  color: #fff;
+}
+
+.nav-btn-icon{
+  position: relative;
+  top: -4px;
+}
+
+.desktop-hover-menu{
+  color: #fff;
+  position: absolute;
+  right: 1%;
+  top: 120%;
+}
+
+.desktop-hover-menu > ul > li {
+  background-color: var(--pri-color);
+  padding: 10px 20px;
+}
+
+.desktop-hover-menu> ul > li:hover {
+  background-color: #8D151A;
+  padding: 10px 20px;
+}
+
+.desktop-hover-menu > ul > li > a{
+  color: #fff !important;
+}
+
+/* mobile nav btn */
+
+.mobile-menu-icon{
+  float: right;
+  cursor: pointer;
+  margin-top: 25px;
+  padding: 5px 5px 5px 30px;
+  border-radius: 30px;
+  background-color: var(--pri-color);
+}
+
+.bar1, .bar2, .bar3 {
+  width: 20px;
+  height: 4px;
+  background-color: #fff;
+  margin: 3px 0;
+  transition: 0.4s;
+}
+
+.mobile-navbar-menu{
+  background-color: var(--pri-color);
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-4px, 3px);
+  transform: rotate(-45deg) translate(-4px, 3px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-6px, -6px);
+  transform: rotate(45deg) translate(-6px, -6px);
+}
+
+.mobile-hover-menu{
+  top: 190%;
+}
+
+.mobile-hover-menu > ul > li {
+  background-color: var(--pri-color);
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.mobile-hover-menu> ul > li:hover {
+  background-color: #8D151A;
+  padding: 10px 20px;
+}
+
+.mobile-hover-menu > ul > li > a{
+  color: #fff !important;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  .mobile{
+    display: block;
+  }
+
+  .desktop{
+    display: none;
+  }
+
+  .logo{
+    width: 100px;
+  }
 }
 .hero-nav-menu li .personal-list:active{
   background-color: #fff;
