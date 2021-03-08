@@ -1,4 +1,15 @@
-
+:root {
+  --pri-color : #D92028;
+}
+body{
+  font-family: 'Museo Sans' !important;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+}
 .personal-img{
   width: 100%;
   height: 680px;
@@ -34,27 +45,11 @@ ul li{
   padding: 15px;
   font-size: 14px;
   color: #796679;
+}
 @font-face{
   src: url('./asset/Fonts/MuseoSans_500.otf');
   font-family: 'Museo Sans';
 }
-
-:root {
-  --pri-color : #D92028;
-}
-
-body{
-  font-family: 'Museo Sans' !important;
-}
-
-a{
-  text-decoration: none;
-}
-
-a:hover{
-  text-decoration: none;
-}
-
 .mobile{
   display: none;
 }

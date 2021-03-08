@@ -1,13 +1,9 @@
 
 import React from 'react';
-import Home from './Component/home'
-// import './App.css';
+// import Home from './Component/home'
 import '../node_modules/bootstrap';
-import Icon from './Component/icon'
 import '../node_modules/animate.css'
-import Personal from './Component/personal';
-// import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-import React from 'react'
+import Personal from './pages/personal';
 import './App.css';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 
@@ -31,6 +27,7 @@ function App() {
         <Router>
             <Switch>
                 <Route path ="/" exact ><Home/></Route>
+                <Route path='/personal'><Personal /></Route>
             </Switch>
         </Router>
     </div>
