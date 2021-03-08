@@ -3,9 +3,7 @@ import {Link} from 'react-router-dom'
 import Personal from '../asset/images/personal.jpg'
 import Business from '../asset/images/business.jpg'
 import Alternative from '../asset/images/alternative.jpg'
-import Icon from "./icon";
-
-
+import Icon from "../components/icon";
 
 class Herobox extends React.Component{
     render(){

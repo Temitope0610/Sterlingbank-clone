@@ -10,8 +10,10 @@ class PersonalNavbar extends React.Component{
                         <div className='row'>
                             <div className='col-2'>
                                 <ul className='hero-nav-menu float-start p-3'>
+
                                    <li><Link to='/personal'className='personal-list active'>Personal</Link></li>
                                     <li><Link to=''>Business</Link></li>
+
                                 </ul>
                             </div>
                             <div className='col-10'>
@@ -25,7 +27,7 @@ class PersonalNavbar extends React.Component{
                                     <li><Link to=''>Branch/ATM Locator</Link></li>
                                     <li><Link to=''>Compliants</Link></li>
                                     <li><Link to=''>Contact Us</Link></li>
-                                </ul>
+                  </ul>
                             </div>
                         </div>
                     </div>
