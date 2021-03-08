@@ -1,38 +1,20 @@
-
 import React from 'react';
-import Home from './Component/home'
-// import './App.css';
-import '../node_modules/bootstrap';
-import Icon from './Component/icon'
-import '../node_modules/animate.css'
-import Personal from './Component/personal';
-// import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-import React from 'react'
 import './App.css';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
-
-// pages
-import Home from './pages/home';
-
+import '../node_modules/bootstrap';
+import '../node_modules/animate.css'
+import Home from './pages/home'
+import Personal from './pages/personal';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 function App() {
   return (
     <div>
-
-       {/* <Home />
-       <Icon />
-       <Personal /> */}
-       {/* <Router>
+       <Router>
          <Switch>
            <Route path='/' exact><Home /></Route>
            <Route path='/personal'><Personal /></Route>
          </Switch>
-       </Router> */}
-        <Router>
-            <Switch>
-                <Route path ="/" exact ><Home/></Route>
-            </Switch>
-        </Router>
+       </Router>
     </div>
   );
 }

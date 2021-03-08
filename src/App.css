@@ -34,6 +34,7 @@ ul li{
   padding: 15px;
   font-size: 14px;
   color: #796679;
+}
 @font-face{
   src: url('./asset/Fonts/MuseoSans_500.otf');
   font-family: 'Museo Sans';
