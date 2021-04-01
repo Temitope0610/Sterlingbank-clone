@@ -11,10 +11,10 @@ class Herobox extends React.Component{
             <div>
                 <a href='#' style={{top:'600px', marginLeft:'35px'}} className='float-start whatsapp-icon'><Icon icon='whatsapp'/></a>
                 <a href='#' style={{top:'530px', right:'35px'}} className='float-end whatsapp-icon'><Icon icon='chat'/></a>
-                <div className='row g-0 animate__animated animate__fadeInRight animate__delay-0.1s' style={{position:'relative'}}> 
+                <div className='row g-0 animate__animated animate__fadeInRight animate__delay-0.1s' style={{position:'relative'}}>
                     <div className='col-md-4'>
                         <Link to='/personal'>
-                        <div className='Overlay'>   
+                        <div className='Overlay'>
                         </div>
                             <div className='personal-img' style={{backgroundImage:`url(${Personal})`}}>
                                 <h1 style={{top:'550px',position:'relative'}}>Personal</h1>
@@ -23,7 +23,7 @@ class Herobox extends React.Component{
                     </div>
                     <div className='col-md-4'>
                     <a href='#'>
-                        <div className='Overlay'>   
+                        <div className='Overlay'>
                         </div>
                             <div className='personal-img' style={{backgroundImage:`url(${Business})`}}>
                                 <h1 style={{top:'550px',position:'relative'}}>Business</h1>
@@ -32,7 +32,7 @@ class Herobox extends React.Component{
                     </div>
                     <div className='col-md-4'>
                     <a href='#'>
-                        <div className='Overlay'>   
+                        <div className='Overlay'>
                         </div>
                             <div className='personal-img' style={{backgroundImage:`url(${Alternative})`}}>
                                 <h1 style={{top:'550px',position:'relative'}}>Alternative</h1>
@@ -40,6 +40,7 @@ class Herobox extends React.Component{
                         </a>
                     </div>
                 </div>
+
             </div>
         )
     }
