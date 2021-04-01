@@ -6,14 +6,17 @@ import './App.css';
 // import '../node_modules/animate.css'
 import Personal from './pages/personal';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import PersonalNavbar from './components/personal-navbar'
+import Footer from './components/footer'
+
 
 function App() {
   return (
     <div>
         <Router>
             <Switch>
-                <Route path ="/" exact ><Home/></Route>
-                <Route path='/personal'><Personal /></Route>
+                <Route path ="/" exact > <Home/></Route>
+                <Route path='/personal'> <PersonalNavbar/> <Personal/> <Footer/></Route>
             </Switch>
         </Router>
     </div>

@@ -1,13 +1,16 @@
 
-:root {
+/* :root {
   --pri-color : #D92028;
 }
+
 body{
   font-family: 'Museo Sans' !important;
 }
+
 a{
   text-decoration: none;
-}
+} */
+
 @font-face{
   src: url('./asset/Fonts/MuseoSans_500.otf');
   font-family: 'Museo Sans';
@@ -193,6 +196,23 @@ a:hover{
   color: #fff !important;
 }
 
+footer{
+  width: 100%;
+  background: #666666;
+  padding: 30px 0;
+}
+
+footer  h4{
+  color: #fff;
+}
+
+footer p > a{
+  color: #b1bfbf !important;
+}
+
+footer p > a:hover{
+  color: #fff !important;
+}
 
 
 @media only screen and (max-width: 768px) {

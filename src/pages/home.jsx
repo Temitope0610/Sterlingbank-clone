@@ -1,4 +1,4 @@
-import React from 'react' 
+import React from 'react'
 import Herobox from '../components/home-herobox'
 import Navbar from '../components/navbar'
 
